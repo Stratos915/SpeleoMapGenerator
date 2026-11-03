@@ -1,0 +1,17 @@
+[general]
+name=SpeleoMap Generator
+description=Genera pianta, profilo longitudinale e sezioni trasversali (PDF + DXF + progetto QGIS) da una nuvola di punti LAS; sezioni e profili su tracce disegnate; rilievo d'insieme di piu' grotte con vista 3D percorribile
+about=Plugin per la cartografia speleologica automatizzata. A partire da una nuvola di punti LAS georeferenziata della grotta produce pianta, profilo longitudinale e sezioni trasversali, esportati in PDF, DXF editabile e progetto QGIS. Permette sezioni e profili lungo tracce disegnate dall'utente e il rilievo d'insieme di piu' grotte con collegamenti e vista 3D percorribile nel browser. Richiede numpy e scipy (inclusi nelle installazioni standard di QGIS per Windows e macOS).
+version=1.1
+qgisMinimumVersion=3.40
+author=Stratos Diakatos Arvanitis
+email=stratosdiakatos@yahoo.it
+category=Analysis
+icon=icon.png
+tags=speleology,cave,survey,lidar,las,point cloud,cartography,section,profile,dxf
+homepage=https://github.com/Stratos915/SpeleoMapGenerator
+repository=https://github.com/Stratos915/SpeleoMapGenerator
+tracker=https://github.com/Stratos915/SpeleoMapGenerator/issues
+experimental=False
+deprecated=False
+changelog=1.1 - Prima versione pubblica: pianta, profilo, sezioni, tracce disegnate, rilievo d'insieme con vista 3D.
